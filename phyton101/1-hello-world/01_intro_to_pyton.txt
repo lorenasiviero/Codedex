@@ -18,16 +18,4 @@ used across various domains such as:
     • Web Development
     • And more!
 
-All the magic you'll create in this course is written as Python 
-files, saved with the .py extension, and executed within a code 
-editor—a special text editor designed for coding.
-
-There’s even a code editor right by your side, crafted just for 
-you. 👉
-
-So dive in and let your imagination run wild as you learn to code 
-in Python. Embrace each line of code as a stepping stone on your 
-journey, and remember—this is just the beginning of an amazing 
-adventure. Happy coding, and let the legend begin!
-
 ================================================================
