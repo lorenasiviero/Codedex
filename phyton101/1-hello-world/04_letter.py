@@ -1,0 +1,16 @@
+# This is a letter to my future self, written in Python.
+
+print('+---------------------------------------------------------------------+')
+print('|                                                         April 2025  |')
+print('|                                                      Campinas, BRA  |')
+print('|  Dear Self,                                                         |')
+print('|                                                                     |')
+print('|      Just know everything will be fine                              |')
+print('|      You can do it!                                                 |')
+print('|      You have many reasons to be happy and keep going               |')
+print('|      I know life can be tough. You got lost but now u found the way |')
+print('|      And always get back up.                                        |')
+print('|                                                                     |')
+print('|                                              L.S                    |')
+print('|                                                                     |')
+print('+---------------------------------------------------------------------+')

@@ -1,0 +1,106 @@
+================================================================
+06. Data Types & Variables
+================================================================
+
+Welcome to your introduction to variables—a place where you 
+can let your code dance and your data sing! This guide explores 
+the magic behind storing information in variables. Let's get 
+excited about coding, one variable at a time! 🌟
+
+----------------------------------------------------------------
+Variables
+----------------------------------------------------------------
+In programming, variables are used for storing data values. 
+Each variable has a name and holds a value. 📦
+
+The variable name can consist of letters, numbers, and the 
+_ underscore.
+
+Here are some valid examples of variable assignments:
+
+    name = 'Erlich Bachman'
+    user_id = 16180339887
+    progress = 0.75
+    exp = 60
+    verified = True
+
+The "=" sign means assignment. It assigns a value to a variable 
+name. For example:
+
+    - We're assigning the string value 'Erlich Bachman' to the 
+      variable "name".
+      
+    - We're assigning the number value 16180339887 to the 
+      variable "user_id".
+      
+    - We're assigning the number value 0.75 to the variable 
+      "progress".
+      
+    - We're assigning the number value 60 to the variable "exp".
+      
+    - We're assigning the truth value True to the variable 
+      "verified".
+
+We can also change the value of a variable or print it out:
+
+    xp = 70
+    xp = 80
+
+    print(xp)    # Output: 80
+
+In this example, we first assign 70 to "xp", then reassign it to 80, 
+and finally print the updated value.
+
+----------------------------------------------------------------
+Data Types
+----------------------------------------------------------------
+Data in programming comes in different flavors. Let's explore them:
+
+1. Integer (int)
+----------------
+An integer is a whole number with no decimal point. It is used 
+for countable values (like the number of people on a bus or the 
+number of jellybeans in a jar).
+
+Example:
+    year = 2023
+    age = 32
+
+2. Float (float)
+----------------
+A float is a decimal number used for precise measurements, 
+fractions, or percentages.
+
+Example:
+    pi = 3.14159
+    meal_cost = 12.99
+
+3. String (str)
+----------------
+A string is used for storing text. It is wrapped in double 
+quotes " " or single quotes ' '.
+
+Example:
+    message = "good nite"
+    username = '@snoopdogg'
+
+4. Boolean (bool)
+----------------
+A Boolean value represents truthiness and can only be either 
+True or False. It is named after the British mathematician 
+George Boole (1815-1864).
+
+Example:
+    late_to_class = False
+    cranky = True
+
+----------------------------------------------------------------
+Keep on Coding!
+----------------------------------------------------------------
+Embrace these concepts as your stepping stones on your coding 
+journey. Experiment, change, and enjoy every line of code you 
+write. Remember, coding isn’t just about logic—it's an art. Let 
+your creativity flow, and keep pushing forward on your learning 
+adventure. Enjoy every step along the way! 🚀
+
+================================================================
