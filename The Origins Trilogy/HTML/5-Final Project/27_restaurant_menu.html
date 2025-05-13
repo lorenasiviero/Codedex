@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Utopia's Burguer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header img {
+            width: 100px;
+            height: auto;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #333;
+        }
+        article {
+            margin-bottom: 20px;
+        }
+        article h3 {
+            color: #555;
+        }
+        article p {
+            color: #666;
+        }
+        figure {
+            margin: 0;
+            display: inline-block;
+        }
+        figure img {
+            width: 150px;
+            height: auto;
+            border-radius: 5px;
+        }
+        form {
+            margin-top: 20px;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        form input[type="number"] {
+            width: 50px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        form input[type="checkbox"],
+        form input[type="radio"] {
+            margin-right: 5px;
+        }
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+        form input[type="submit"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        form input[type="submit"]:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+        <img id="header-logo" src="https://img.freepik.com/vetores-premium/logotipo-do-burger-logotipo-com-contorno-grosso_1594-995.jpg?semt=ais_hybrid&w=740" alt="Utopia's Burguer Logo" />
+        <h1>Welcome to Utopia Burguer!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#menu-section">Menu</a></li>
+                <li><a href="#order-form">Place Your Order</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about-section">
+            <h2>About Us</h2>
+            <p>At Utopia Burguer, we believe in serving the best burgers made with love and quality ingredients. Join us for a delicious experience!</p>
+        </section>
+        <br/>
+        <section id="menu-section">
+            <h2>Our Menu</h2>
+            <article>
+                <h3>Classic Cheeseburger</h3>
+                <p>A juicy beef patty topped with melted cheese, lettuce, onion, pickles, tomato, and our special sauce. <em>$8.99</em></p>
+                <figure style="margin:0;display:inline">
+                    <img
+                        width="150"
+                        src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D"
+                        alt="Classic Cheeseburger"
+                    />
+                </figure>
+            </article>
+            <br/>
+            <article>
+                <h3>Bacon Delight</h3>
+                <p>A double stacked patties with melted cheese, fresh vegetables, bacon, cameralized onions, and our homemade sauce. <em>$9.69</em></p>
+                <figure style="margin:0;display:inline">
+                    <img
+                        width="150"
+                        src="https://images.unsplash.com/photo-1595531172949-30922c28a240?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJ1cmd1ZXJ8ZW58MHx8MHx8fDA%3D"
+                        alt="Bacon Delight"
+                    />
+                </figure>
+            </article>
+            <br/>
+            <article>
+                <h3>Spicy Chicken Burger</h3>
+                <p>A crispy chicken patty with spicy sauce, lettuce, avocado spread, pickles, and mayonnaise. <em>$10.00</em></p>
+                <figure style="margin:0;display:inline">
+                    <img
+                        width="150"
+                        src="https://images.unsplash.com/photo-1692737348416-0a4fa4cf1523?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Spicy Chicken Burger"
+                    />
+                </figure>
+            </article>
+            </section>
+            <br/>
+            <section id="order-form">
+                <h2>Place Your Order</h2>
+                <form>
+                    <label for="classic-cheeseburger">Classic Cheeseburger: </label>
+                    <input type="number" id="classic-cheeseburger" name="classic-cheeseburger" min="0" value="0">
+
+                    <label for="bacon-delight">Bacon Delight: </label>
+                    <input type="number" id="bacon-delight" name="bacon-delight" min="0" value="0">
+
+                    <label for="spicy-chicken-burger">Spicy Chicken Burger: </label>
+                    <input type="number" id="spicy-chicken-burger" name="spicy-chicken-burger" min="0" value="0">
+                    
+                    <label>Sides:   </label>
+                    <input type="checkbox" id="fries" name="fries" value="Fries">
+                    <label for="fries">Fries</label>
+                    <input type="checkbox" id="onion-rings" name="onion-rings" value="Onion Rings">
+                    <label for="onion-rings">Onion Rings</label>
+
+                    <label>Add-ons: </label>
+                    <input type="radio" id="extra-cheese" name="addon" value="Extra Cheese">
+                    <label for="extra-cheese">Extra Cheese</label>
+                    <input type="radio" id="bacon" name="addon" value="Bacon">
+                    <label for="bacon">Bacon</label>
+
+                    <label for="special-instructions">Special Instructions:</label>
+                    <textarea id="special-instructions" name="special-instructions" rows="4" cols="50"></textarea>
+
+                    <br/><br/>
+                    <input type="submit" value="Go to Checkout">
+                </form>
+            </section>
+            <br/>
+            <section id="contact-section">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or feedback, feel free to reach out to us!</p>
+                <p>Email: <a href="mailto:contact@utopiaburguer.com">contact@utopiaburguer.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                <p>Address: 123 Utopia St, Food City, FC 12345</p>
+            </section>
+    </main>
+    <footer>
+        <p> Made with love by Lorena Siviero @los2</p>
+        <ul>
+            <li>Utopia's Burguer © 2025</li>
+            <li><a href="#about-section">About Us</a></li>
+            <li><a href="#menu-section">Menu</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+        </ul>
+    </footer>
+    </body>
+</html>
+    
