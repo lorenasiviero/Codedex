@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+  </head>
+  <body>
+  <form>
+    <h2>Sign Up</h2>
+    Username: <input type="text" required minlength="4" maxlength="10"/>
+    <br><br>
+    Email: <input type="email" required/>
+    <br><br>
+    Password: <input type="password" required minlength="4" maxlength="10"/>
+    <br><br>
+    Confirm Password: <input type="password" required minlength="4" maxlength="10"/>
+    <br><br>
+    <input type="submit" />
+  </form>
+</body>
+</html>
+
+
+<!-- Input Validation
+ 
+"email" input: Checks if the input is a valid email format
+
+"password" input: Masks the input for security
+    Can also have a:
+        "minlenghth" attribute to set a minimum number of characters
+        "maxlength" attribute to set a maximum number of characters
+    Ex: <input type="password" minlength="4" maxlength="10">
+-->
+
+<!-- Required Data
+ 
+The "required" attribute can be added to any input type to make it mandatory
+    Ex: 
+    <form method="dialog">
+        Name: <input type="text" required>
+        <br><br>
+        Favorite Color: <input type="text">
+        <input type="submit">
+    </form>
+    This will prevent the form from being submitted until the field is filled out
+-->

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <form>
+      <h2>Contact Us</h2>
+      <label for="name">Name: </label><input type="text" id="name" placeholder="Enter your name" />
+      <br><br>
+      <label for="comment">Comments and suggestions:</label>
+      <br>
+      <textarea id="comment" placeholder="Enter your comment"></textarea>
+      <br><br>
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
+
+
+<!-- Textareas
+ 
+<textarea> element renders as a plain, mini-text editor on the webpage
+
+    <textarea id="data-entry" rows="7" cols="42"  placeholder="Enter some data here!"></textarea>
+
+In addition to class and id attributes, <textarea> can have:
+    - rows: sets the number of visible text lines (default is 2)
+    - cols: sets the width of the textarea in characters (default is 20)
+    - placeholder: shows a hint inside the textarea until the user types something
+    
+    The required attribute can be added to any input type to make it mandatory
+-->
+
+<!-- Form Labels
+ 
+<label> element is used to define a label for an <input> element
+
+   Ex: 
+    <form>
+        <label>Book Title: </label><input type="text">
+        <br><br>
+        <label>Author: </label><input type="text">
+        <br><br>
+        <input type="submit">
+    </form>
+
+    In order to associate <label> elements to form inputs, its for attribute must match the id of a given <input> element:
+        <form>
+            <label for="title">Book Title: </label><input type="text" id="title">
+            <br><br>
+            <label for="author" >Author: </label><input type="text" id="author">
+            <br><br>
+            <input type="submit">
+        </form>
+
+    Alternatively, these associations can be implicitly defined:
+        <form>
+            <label>Book Title: <input type="text"></label>
+            <label>Author: <input type="text"></label>
+        </form>
+        This will render the same as the previous example
+-->
